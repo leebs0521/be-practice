@@ -38,6 +38,9 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+tasks.named('build') {
+    dependsOn 'copyYML'
+}
 
 tasks.register('copyYML', Copy) {
     copy {
