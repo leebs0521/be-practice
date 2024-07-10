@@ -2,8 +2,8 @@ FROM ubuntu:latest
 LABEL authors="beomsu"
 
 FROM amazoncorretto:17
-ENV PROFILES=blue
-ENV ENV=blue
+ARG PROFILES
+ARG ENV
 
 # 작업 디렉토리 설정
 WORKDIR /be-practice
