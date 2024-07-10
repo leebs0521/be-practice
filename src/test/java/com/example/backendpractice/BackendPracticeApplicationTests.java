@@ -1,4 +1,4 @@
-package com.sparta.backendpractice;
+package com.example.backendpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

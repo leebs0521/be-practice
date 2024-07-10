@@ -1,0 +1,3 @@
+[submodule "config-practice"]
+	path = config-practice
+	url = https://github.com/leebs0521/config-practice.git
