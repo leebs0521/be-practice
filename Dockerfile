@@ -5,7 +5,6 @@ FROM amazoncorretto:17
 ARG PROFILES
 ARG ENV
 
-# 작업 디렉토리 설정
 WORKDIR /be-practice
 
 # 애플리케이션 JAR 파일 복사
