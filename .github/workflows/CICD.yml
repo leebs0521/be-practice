@@ -40,9 +40,9 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker
-        run: docker build --platform linux/amd64 -t ${{ secrets.DOCKERHUB_USERNAME }}/BE_server .
+        run: docker build --platform linux/amd64 -t ${{ secrets.DOCKERHUB_USERNAME }}/be_server .
       - name: Push Docker
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/BE_server:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/be_server:latest
         
   deploy:
     needs: build
